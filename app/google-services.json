@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1082078125245",
+    "firebase_url": "https://ww-record.firebaseio.com",
+    "project_id": "ww-record",
+    "storage_bucket": "ww-record.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082078125245:android:a9595b15cf44e1c5",
+        "android_client_info": {
+          "package_name": "com.furiousrocket.soccho.werewolfrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082078125245-9q9efl8lc2n3dbkteb57o7me5vb38m70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL64R6yhNa_RBXHkrEgEIpLECdEYYVfmw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
