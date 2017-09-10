@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class Season_Person {
   private String name;
-  private int id;
+  private String id;
   private int sum;
   private int win;
   private int wolf;
@@ -19,11 +19,11 @@ public class Season_Person {
 
   }
 
-  public Season_Person(int id,String name){
+  public Season_Person(String id,String name){
     this.id=id;sum=0;win=0;wolf=0;villager=0;
     this.name=name;
   }
-  public Season_Person(int id,String name, int sum, int win, int wolf, int villager) {
+  public Season_Person(String id,String name, int sum, int win, int wolf, int villager) {
     this.id = id;
     this.sum = sum;
     this.name=name;
@@ -50,11 +50,11 @@ public class Season_Person {
     this.name = name;
   }
 
-  public int getId() {
+  public String getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(String id) {
     this.id = id;
   }
 
